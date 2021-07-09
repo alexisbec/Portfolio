@@ -1,0 +1,463 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  body {
+    max-width: 100vw;
+  }
+}
+
+/* ----------------------------------------------- */
+/* -------------------- NavBar -------------------- */
+/* ----------------------------------------------- */
+
+@media screen and (max-width: 1024px) {
+  .nav-ul {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .second-nav {
+    justify-content: space-between;
+    padding: 0 1em;
+    max-width: 100vw;
+  }
+  
+  .nav-ul {
+    position: absolute;
+    right: 0;
+    height: 92vh;
+    top: 8vh;
+    background-color: #87c0cd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    font-size: 1.5em;
+  }
+
+  .nav-li {
+    opacity: 0;
+    margin: 1em 0;
+  }
+
+  .burguer {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+
+/* ----------------------------------------------- */
+/* -------------------- Home -------------------- */
+/* ----------------------------------------------- */
+
+@media screen and (min-width: 1440px) {
+  .home-banner {
+    padding-right: 10em;
+  }
+
+  .banner-logo {
+    width: 27em;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .home-banner {
+    padding-right: 0;
+    width: 60%;
+  }
+
+  .banner-logo {
+    width: 20em;
+  }
+
+  .banner-info h2 {
+    font-size: 2.5em;
+  }
+  
+  .banner-info p {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1023px) {
+  .home-banner {
+    width: 60%;
+    padding-right: 0;
+  }
+
+  .banner-logo {
+    width: 18em;
+  }
+
+  .banner-info h2 {
+    font-size: 2.5em;
+  }
+  
+  .banner-info p {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .home-banner {
+    width: 60%;
+    padding-right: 0;
+  }
+
+  .banner-logo {
+    width: 15em;
+  }
+
+  .banner-info h2 {
+    font-size: 2.8em;
+  }
+  
+  .banner-info p {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .home-banner {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .banner-logo {
+    width: 9em;
+  }
+
+  .banner-info h2 {
+    font-size: 1.5em;
+  }
+  
+  .banner-info p {
+    font-size: 1em;
+  }
+}
+
+/* ----------------------------------------------- */
+/* -------------------- About -------------------- */
+/* ----------------------------------------------- */
+
+@media screen and (min-width: 1024px) {
+  .sec2 {
+    padding: 0 10em;
+  }
+  
+  .about-text {
+    line-height: 1.5em;
+    font-size: 1.7em !important;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1023px) {
+  .sec2 {
+    padding: 0 10em;
+  }
+
+  .about-title {
+    margin: 1.4em;
+  }
+
+  .about-text {
+    line-height: 1.5em;
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .sec2 {
+    padding: 0 10em;
+  }
+
+  .about-title {
+    margin: 1.4em;
+  }
+  
+  .about-text {
+    line-height: 1.5em;
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .sec2 {
+    padding: 0 2em;
+  }
+
+  .about-title {
+    font-size: 2em;
+    margin: 1.4em;
+  }
+  
+  .about-text {
+    line-height: 1.3em;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 1.4em;
+  }
+}
+
+/* ----------------------------------------------- */
+/* ----------------- Technologies ----------------- */
+/* ----------------------------------------------- */
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .lsslide {
+    height: 50vh !important;
+  }
+  
+  .tech-title {
+    font-size: 3em;
+  }
+}
+
+/* ----------------------------------------------- */
+/* -------------------- Projects -------------------- */
+/* ----------------------------------------------- */
+
+@media screen and (min-width: 1440px) {
+  .cards-grid {
+    width: 80vw;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .cards-grid {
+    width: 90vw;
+  }
+
+  .card .card-content h2 {
+    font-size: 1.5em;
+  }
+  
+  .card .card-content p {
+    font-size: 1em;
+  }
+
+  .project-buttons a {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1023px) {
+  .cards-grid {
+    width: 90vw;
+  }
+
+  .first-row,
+  .second-row {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .card .card-content h2 {
+    font-size: 1.5em;
+  }
+  
+  .card .card-content p {
+    font-size: 1em;
+  }
+
+  .disappear {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .cards-grid {
+    width: 90vw;
+  }
+
+  .first-row,
+  .second-row {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .project-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+  }
+
+  .project-buttons a {
+    width: 100%;
+    margin: 0.5em 0;
+  }
+  
+  .disappear {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .projects-title {
+    font-size: 3em;
+  }
+
+  .cards-grid {
+    width: 70vw;
+  }
+  
+  .first-row,
+  .second-row {
+    grid-template-columns: 1fr;
+  }
+
+  .card-content h2 {
+    visibility: visible;
+  }
+
+  .project-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+  }
+
+  .project-buttons a {
+    width: 100%;
+    margin: 0.5em 0;
+  }
+
+  .disappear {
+    display: none;
+  }
+
+  .projects-btn {
+    width: 100%;
+  }
+}
+
+/* ----------------------------------------------- */
+/* -------------------- Contact -------------------- */
+/* ----------------------------------------------- */
+
+@media (max-width: 1200px) {
+  .sec5-cont {
+    min-width: auto;
+    width: 90%;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sec5-cont .contactInfo {
+    top: 0;
+    height: 560px;
+    box-shadow: none;
+  }
+  
+  .sec5-cont .contactForm {
+    padding-left: 13em;
+    height: 559px;
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .sec5-cont {
+    height: 50em;
+    flex-direction: column;
+    margin: 5em auto;
+  }
+  
+  .sec5-cont .contactInfo {
+    width: 100%;
+    height: 18em;
+    position: relative;
+  }
+
+  .contactInfo h2 {
+    text-align: left;
+  }
+  
+  .sec5-cont .contactForm {
+    position: relative;
+    padding: 4em 3.5em;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .info {
+    position: relative;
+    padding: 0;
+  }
+  
+  .info li {
+    margin: 1em 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .sec5 {
+    min-height: 140vh;
+  }
+
+  .sec5-cont {
+    margin-top: 0;
+  }
+  
+  .sec5-cont .contactForm {
+    padding: 2em;
+    height: 40em;
+  }
+
+  .sec5-cont .contactInfo {
+    height: 17em;
+    padding: 2em;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contactInfo h2 {
+    font-size: 2em;
+    text-align: left;
+  }
+
+  .contactInfo li {
+    font-size: 1.2em;
+  }
+
+  .w50 {
+    width: 100%;
+  }
+
+  .social-ul li a {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .contact-title {
+    font-size: 3em;
+    margin-top: 6em;
+  }
+
+  .social-ul li a {
+    font-size: 1.8em;
+  }
+}
+
+/* ----------------------------------------------- */
+/* -------------------- Footer-------------------- */
+/* ----------------------------------------------- */
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .social-ul li a {
+    font-size: 1.7em;
+  }
+  
+  .cpryt {
+    font-size: 0.8em;
+  }
+}
