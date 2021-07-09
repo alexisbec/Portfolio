@@ -350,14 +350,16 @@ nav li a:hover:before {
   font-size: 1.8em;
 }
 
-.card .card-content p {
+.card .card-content p:nth-child(2) {
   font-size: 1.2em;
   margin-top: 1em;
   font-weight: 500;
 }
 
-.card .card-content ul {
-  list-style: none;
+.card .card-content p:nth-child(3) {
+  font-weight: 800;
+  margin-top: 1em;
+  font-size: 1.3em;
 }
 
 .card:hover .card-content {
