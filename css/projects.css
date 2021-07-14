@@ -413,10 +413,6 @@ footer {
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .project-info {
-    color: green;
-  }
-
   .card-container {
     width: 100vw;
   }
