@@ -6,11 +6,11 @@ This is my personal Portfolio Web Page made with basic HTML, CSS and JavaScript.
 
 ### Desktop Version
 
-![screenshot of the Desktop version](desktop_screenshot.png)
+![screenshot of the Desktop version](./desktop_screenshot.png)
 
 ### Mobile Version
 
-![screenshot of the Mobile version](mobile_screenshot.png)
+![screenshot of the Mobile version](./mobile_screenshot.png)
 
 ## Built With
 
@@ -20,7 +20,7 @@ This is my personal Portfolio Web Page made with basic HTML, CSS and JavaScript.
 
 ## Live Demo
 
-You can visit [here](https://alexisbec.github.io/Portfolio/) my Website.
+You can visit [here](https://alexvarela.me/) my Website.
 
 ## Getting Started
 
@@ -47,4 +47,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/alexisbec/Portfolio/blob/feature/LICENSE) licensed.
+This project is [MIT](https://github.com/alexisbec/Portfolio/blob/main/LICENSE) licensed.
