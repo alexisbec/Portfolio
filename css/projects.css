@@ -18,7 +18,9 @@ body {
 }
 
 /* ------------------------------------------------ */
+
 /* -------------------- NavBar -------------------- */
+
 /* ------------------------------------------------ */
 
 nav {
@@ -56,7 +58,9 @@ nav {
 }
 
 /* -------------------------------------------------- */
+
 /* -------------------- Projects -------------------- */
+
 /* -------------------------------------------------- */
 
 .sec1 {
@@ -87,12 +91,11 @@ nav {
 }
 
 .card-cont:hover {
-  background: rgba( 132, 153, 165, 0.30 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 3.5px );
-  -webkit-backdrop-filter: blur( 3.5px );
+  background: rgba(132, 153, 165, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
   border-radius: 5px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
   transition: 1s;
   border: none;
 }
@@ -152,14 +155,14 @@ nav {
 
 .project-tech {
   background: #87c0cd;
-  color: #1C6069;
+  color: #1c6069;
   padding: 2em;
   border-radius: 5px;
   text-align: center;
 }
 
 .card-cont:hover .card-footer .project-tech {
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
 .project-tech p {
@@ -167,7 +170,6 @@ nav {
   margin-bottom: 0.7em;
   font-weight: bolder;
   color: #0f3057;
-  font-weight: bolder;
 }
 
 .project-tech ul {
@@ -193,25 +195,44 @@ nav {
   text-decoration: none;
 }
 
+.social-ul li a {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: none;
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+  transition: 0.5s;
+  font-size: 2em;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .buttons a:hover {
   transform: scale(1.1);
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
 /* ----------------------------------------------- */
+
 /* -------------------- Footer -------------------- */
+
 /* ----------------------------------------------- */
 
 footer {
-  background: #1C6069;
+  background: #1c6069;
   height: auto;
-  padding: 4em;
+  padding: 2em;
   position: absolute;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 0;
 }
 
 .social-media {
@@ -231,29 +252,9 @@ footer {
   list-style: none;
 }
 
-.social-ul li a {
-  display: block;
-  position: relative;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  font-size: 20px;
-  text-align: center;
-  background: none;
-  text-decoration: none;
-  color: #fff;
-  margin: 0 10px;
-  transition: .5s;
-  font-size: 2em;
-  padding: 1em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .social-ul li a span {
   position: absolute;
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 
 .social-ul li a span:nth-child(1),
@@ -269,22 +270,17 @@ footer {
   transform-origin: right;
 }
 
-.social-ul li a:hover span:nth-child(1) {
-  transform-origin: left;
-  transform: scaleX(0);
-  transition: transform .5s;
+.social-ul li a span:nth-child(2) {
+  top: 0;
+  left: 0;
+  transform-origin: bottom;
+  transform: scaleY(0);
 }
 
 .social-ul li a span:nth-child(3) {
   bottom: 0;
   left: 0;
   transform-origin: left;
-}
-
-.social-ul li a:hover span:nth-child(3) {
-  transform-origin: right;
-  transform: scaleX(0);
-  transition: transform .5s;
 }
 
 .social-ul li a span:nth-child(2),
@@ -294,19 +290,6 @@ footer {
   background: #fff;
 }
 
-.social-ul li a span:nth-child(2) {
-  top: 0;
-  left: 0;
-  transform-origin: bottom;
-  transform: scaleY(0);
-}
-
-.social-ul li a:hover span:nth-child(2) {
-  transform-origin: top;
-  transform: scaleY(1);
-  transition: transform .5s;
-}
-
 .social-ul li a span:nth-child(4) {
   top: 0;
   right: 0;
@@ -314,10 +297,28 @@ footer {
   transform: scaleY(0);
 }
 
+.social-ul li a:hover span:nth-child(1) {
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+}
+
+.social-ul li a:hover span:nth-child(3) {
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+}
+
+.social-ul li a:hover span:nth-child(2) {
+  transform-origin: top;
+  transform: scaleY(1);
+  transition: transform 0.5s;
+}
+
 .social-ul li a:hover span:nth-child(4) {
   transform-origin: bottom;
   transform: scaleY(1.1);
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 
 .cpryt {
@@ -328,11 +329,15 @@ footer {
 }
 
 /* ------------------------------------------------------------------ */
+
 /* --------------------------------- Media -------------------------- */
+
 /* ------------------------------------------------------------------ */
 
 /* ------------------------------------------------ */
+
 /* -------------------- Navbar -------------------- */
+
 /* ------------------------------------------------ */
 
 @media screen and (max-width: 768px) {
@@ -344,7 +349,9 @@ footer {
 }
 
 /* ------------------------------------------------- */
+
 /* -------------------- Projects ------------------- */
+
 /* ------------------------------------------------- */
 
 @media screen and (min-width: 993px) and (max-width: 1439px) {
@@ -416,7 +423,7 @@ footer {
   .sec1 h1 {
     font-size: 3em;
   }
-  
+
   .card-container {
     width: 100vw;
   }
@@ -467,18 +474,20 @@ footer {
 }
 
 /* ------------------------------------------------ */
+
 /* -------------------- Footer -------------------- */
+
 /* ------------------------------------------------ */
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .back-btn {
     font-size: 1.5em;
   }
-  
+
   .social-ul li a {
     font-size: 1.7em;
   }
-  
+
   .cpryt {
     font-size: 0.8em;
   }

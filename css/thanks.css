@@ -56,7 +56,6 @@ body {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   border: none;
-  text-decoration: none;
   color: #fff;
 }
 
@@ -81,18 +80,16 @@ body {
 }
 
 .social-ul li a {
-  display: block;
   position: relative;
   width: 50px;
   height: 50px;
   line-height: 50px;
-  font-size: 20px;
   text-align: center;
   background: none;
   text-decoration: none;
   color: #87c0cd;
   margin: 0 10px;
-  transition: .5s;
+  transition: 0.5s;
   font-size: 1.8vw;
   padding: 1em;
   display: flex;
@@ -102,7 +99,7 @@ body {
 
 .social-ul li a span {
   position: absolute;
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 
 .social-ul li a span:nth-child(1),
@@ -118,31 +115,6 @@ body {
   transform-origin: right;
 }
 
-.social-ul li a:hover span:nth-child(1) {
-  transform-origin: left;
-  transform: scaleX(0);
-  transition: transform .5s;
-}
-
-.social-ul li a span:nth-child(3) {
-  bottom: 0;
-  left: 0;
-  transform-origin: left;
-}
-
-.social-ul li a:hover span:nth-child(3) {
-  transform-origin: right;
-  transform: scaleX(0);
-  transition: transform .5s;
-}
-
-.social-ul li a span:nth-child(2),
-.social-ul li a span:nth-child(4) {
-  width: 1px;
-  height: 100%;
-  background: #87c0cd;
-}
-
 .social-ul li a span:nth-child(2) {
   top: 0;
   left: 0;
@@ -150,10 +122,10 @@ body {
   transform: scaleY(0);
 }
 
-.social-ul li a:hover span:nth-child(2) {
-  transform-origin: top;
-  transform: scaleY(1);
-  transition: transform .5s;
+.social-ul li a span:nth-child(3) {
+  bottom: 0;
+  left: 0;
+  transform-origin: left;
 }
 
 .social-ul li a span:nth-child(4) {
@@ -163,14 +135,41 @@ body {
   transform: scaleY(0);
 }
 
+.social-ul li a span:nth-child(2),
+.social-ul li a span:nth-child(4) {
+  width: 1px;
+  height: 100%;
+  background: #87c0cd;
+}
+
+.social-ul li a:hover span:nth-child(1) {
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+}
+
+.social-ul li a:hover span:nth-child(3) {
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+}
+
+.social-ul li a:hover span:nth-child(2) {
+  transform-origin: top;
+  transform: scaleY(1);
+  transition: transform 0.5s;
+}
+
 .social-ul li a:hover span:nth-child(4) {
   transform-origin: bottom;
   transform: scaleY(1.1);
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 
 /* ------------------------------------------------------------------ */
+
 /* --------------------------------- Media -------------------------- */
+
 /* ------------------------------------------------------------------ */
 
 @media screen and (min-width: 993px) and (max-width: 1439px) {
@@ -181,7 +180,7 @@ body {
   .card h2 {
     font-size: 2.6vw;
   }
-  
+
   .card p {
     font-size: 2.2vw;
   }
@@ -190,7 +189,7 @@ body {
     font-size: 2vw;
     margin-bottom: 2em;
   }
-  
+
   .social-ul li a {
     font-size: 2.2vw;
   }
@@ -204,7 +203,7 @@ body {
   .card h2 {
     font-size: 3.9vw;
   }
-  
+
   .card p {
     font-size: 3vw;
   }
@@ -213,7 +212,7 @@ body {
     font-size: 2.6vw;
     margin-bottom: 2em;
   }
-  
+
   .social-ul li a {
     font-size: 3.6vw;
   }
@@ -228,7 +227,7 @@ body {
   .card h2 {
     font-size: 5vw;
   }
-  
+
   .card p {
     font-size: 4vw;
   }
@@ -236,7 +235,7 @@ body {
   .button {
     font-size: 3.8vw;
   }
-  
+
   .social-ul li a {
     font-size: 5vw;
   }

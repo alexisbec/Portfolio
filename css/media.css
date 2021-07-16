@@ -5,7 +5,9 @@
 }
 
 /* ----------------------------------------------- */
+
 /* -------------------- NavBar -------------------- */
+
 /* ----------------------------------------------- */
 
 @media screen and (max-width: 1024px) {
@@ -24,7 +26,7 @@
     padding: 0 1em;
     max-width: 100vw;
   }
-  
+
   .nav-ul {
     position: absolute;
     right: 0;
@@ -56,9 +58,10 @@
   transform: translateX(0%);
 }
 
-
 /* ----------------------------------------------- */
+
 /* -------------------- Home -------------------- */
+
 /* ----------------------------------------------- */
 
 @media screen and (min-width: 1440px) {
@@ -84,7 +87,7 @@
   .banner-info h2 {
     font-size: 2.5em;
   }
-  
+
   .banner-info p {
     font-size: 1.8em;
   }
@@ -103,7 +106,7 @@
   .banner-info h2 {
     font-size: 2.5em;
   }
-  
+
   .banner-info p {
     font-size: 1.5em;
   }
@@ -122,7 +125,7 @@
   .banner-info h2 {
     font-size: 2.8em;
   }
-  
+
   .banner-info p {
     font-size: 1.8em;
   }
@@ -141,21 +144,23 @@
   .banner-info h2 {
     font-size: 1.5em;
   }
-  
+
   .banner-info p {
     font-size: 1em;
   }
 }
 
 /* ----------------------------------------------- */
+
 /* -------------------- About -------------------- */
+
 /* ----------------------------------------------- */
 
 @media screen and (min-width: 1024px) {
   .sec2 {
     padding: 0 10em;
   }
-  
+
   .about-text {
     line-height: 1.5em;
     font-size: 1.7em !important;
@@ -187,7 +192,7 @@
   .about-title {
     margin: 1.4em;
   }
-  
+
   .about-text {
     line-height: 1.5em;
     font-size: 1.3em;
@@ -204,7 +209,7 @@
     font-size: 2em;
     margin: 1.4em;
   }
-  
+
   .about-text {
     line-height: 1.3em;
     font-size: 1.2em;
@@ -214,21 +219,25 @@
 }
 
 /* ----------------------------------------------- */
+
 /* ----------------- Technologies ----------------- */
+
 /* ----------------------------------------------- */
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .lsslide {
     height: 50vh !important;
   }
-  
+
   .tech-title {
     font-size: 3em;
   }
 }
 
 /* ----------------------------------------------- */
+
 /* -------------------- Projects -------------------- */
+
 /* ----------------------------------------------- */
 
 @media screen and (min-width: 1440px) {
@@ -245,7 +254,7 @@
   .card .card-content h2 {
     font-size: 1.5em;
   }
-  
+
   .card .card-content p {
     font-size: 1em;
   }
@@ -268,7 +277,7 @@
   .card .card-content h2 {
     font-size: 1.5em;
   }
-  
+
   .card .card-content p {
     font-size: 1em;
   }
@@ -298,7 +307,7 @@
     width: 100%;
     margin: 0.5em 0;
   }
-  
+
   .disappear {
     display: none;
   }
@@ -312,7 +321,7 @@
   .cards-grid {
     width: 70vw;
   }
-  
+
   .first-row,
   .second-row {
     grid-template-columns: 1fr;
@@ -343,7 +352,9 @@
 }
 
 /* ----------------------------------------------- */
+
 /* -------------------- Contact -------------------- */
+
 /* ----------------------------------------------- */
 
 @media (max-width: 1200px) {
@@ -352,13 +363,13 @@
     width: 90%;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
   }
-  
+
   .sec5-cont .contactInfo {
     top: 0;
     height: 560px;
     box-shadow: none;
   }
-  
+
   .sec5-cont .contactForm {
     padding-left: 13em;
     height: 559px;
@@ -372,7 +383,7 @@
     flex-direction: column;
     margin: 5em auto;
   }
-  
+
   .sec5-cont .contactInfo {
     width: 100%;
     height: 18em;
@@ -382,19 +393,19 @@
   .contactInfo h2 {
     text-align: left;
   }
-  
+
   .sec5-cont .contactForm {
     position: relative;
     padding: 4em 3.5em;
     margin: 0;
     width: 100%;
   }
-  
+
   .info {
     position: relative;
     padding: 0;
   }
-  
+
   .info li {
     margin: 1em 0;
   }
@@ -408,7 +419,7 @@
   .sec5-cont {
     margin-top: 0;
   }
-  
+
   .sec5-cont .contactForm {
     padding: 2em;
     height: 40em;
@@ -453,14 +464,16 @@
 }
 
 /* ----------------------------------------------- */
+
 /* -------------------- Footer-------------------- */
+
 /* ----------------------------------------------- */
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .social-ul li a {
     font-size: 1.7em;
   }
-  
+
   .cpryt {
     font-size: 0.8em;
   }
